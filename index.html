@@ -3,6 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 <title>Document</title>
 </head>
 <body>
@@ -11,13 +12,135 @@ action="#"
 method="post"
 target="_blank"
 onsubmit="alert('Formulario Enviado!!');">
+
 <label>Nome: </label>
+</br>
 <input type="text" />
 </br>
+
 <label>Senha: </label>
+</br>
 <input type="password" />
 </br>
+
+<label>Numero:</label>
+</br>
+<input type="number" min=0 step=e max="999999999" />
+</br>
+
+<label>Email:</label>
+</br>   
+<input type="email" name="Email" / required />
+</br>
+</br>
+
+<input type="checkbox" name="opcao" /><label>Futebol</label>  </br>
+<input type="checkbox" name="opcao" /><label>Volleyball</label> </br>
+<input type="checkbox" name="opcao" /><label>Basketball</label> </br>
+</br>
+
+<label>Data:</label>
+<input type="date" name="Date" / required />
+</br>
+</br>
+
+<input type="radio" name="time"/><label>Homem</label>
+</br>
+<input type="radio" name="time"/><label>Mulher</label>
+</br>
+<input type="radio" name="time"/><label>Prefiro n dizer (gay)</label>
+</br>
+</br>
+<label>Observações:</label>
+</br>
+    <textarea name="Obs" placeholder="Faca uma sugestao"></textarea>
+</br>
+</br>
+<label>SEXUALIDADE:</label>
+
+    <select name="Sexualidade">
+        <option value="">Selecione</option>
+        <option value="heterossexual">Heterossexual</option>
+        <option value="homossexual">Homossexual (Gay/Lésbica)</option>
+        <option value="bissexual">Bissexual</option>
+        <option value="assexual">Assexual</option>
+        <option value="pansexual">Pansexual</option>
+        <option value="arromantico">Arromântico</option>
+        <option value="demissexual">Demissexual</option>
+        <option value="demiromantico">Demiromântico</option>
+        <option value="grayassexual">Grayassexual</option>
+        <option value="grayrromantico">Grayrromântico</option>
+        <option value="polissexual">Polissexual</option>
+        <option value="omnissexual">Omnissexual</option>
+        <option value="espectro_assexual">Dentro do Espectro Assexual</option>
+        <option value="espectro_arromantico">Dentro do Espectro Arromântico</option>
+        <option value="questionando">Questionando</option>
+        <option value="outros">Outro</option>
+    </select>
+
+</br>
+</br>
+    <label for="text">CIDADE:</label>
+    <select name="CidadeMinas">
+        <option value="">Selecione a cidade</option>
+        <optgroup label="Região Metropolitana de Belo Horizonte">
+            <option value="belo_horizonte">Belo Horizonte</option>
+            <option value="betim">Betim</option>
+            <option value="contagem">Contagem</option>
+            <option value="ribeirao_das_neves">Ribeirão das Neves</option>
+            <option value="santa_luzia">Santa Luzia</option>
+            <option value="vespasiano">Vespasiano</option>
+            <option value="sabara">Sabará</option>
+            <option value="igarapé">Igarapé</option>
+            <option value="esmeraldas">Esmeraldas</option>
+            <option value="mateus_leme">Mateus Leme</option>
+            <option value="rio_manso">Rio Manso</option>
+            <option value="juatuba">Juatuba</option>
+            <option value="florestal">Florestal</option>
+            <option value="sarzedo">Sarzedo</option>
+            <option value="mario_campos">Mário Campos</option>
+            <option value="nova_lima">Nova Lima</option>
+            <option value="raposos">Raposos</option>
+            <option value="rio_acima">Rio Acima</option>
+            <option value="itabirito">Itabirito</option>
+            <option value="brumadinho">Brumadinho</option>
+            <option value="congonhas_do_campo">Congonhas do Campo</option>
+            <option value="ouro_branco">Ouro Branco</option>
+            <option value="moeda">Moeda</option>
+            <option value="bonfim">Bonfim</option>
+            <option value="crucilândia">Crucilândia</option>
+            <option value="itauna">Itaúna</option>
+            <option value="parademinas">Pará de Minas</option>
+            <option value="nova_serrana">Nova Serrana</option>
+            <option value="sete_lagoas">Sete Lagoas</option>
+            <option value="capelinha">Capelinha</option>
+            <option value="funilandia">Funilândia</option>
+            <option value="inhauma">Inhaúma</option>
+            <option value="piedade_dos_gerais">Piedade dos Gerais</option>
+            <option value="prudente_de_morais">Prudente de Morais</option>
+            <option value="matozinhos">Matozinhos</option>
+            <option value="sao_jose_da_lapa">São José da Lapa</option>
+            <option value="confins">Confins</option>
+            <option value="lagoinha">Lagoinha</option>
+            <option value="baldim">Baldim</option>
+            <option value="cachoeira_da_prata">Cachoeira da Prata</option>
+            <option value="cordisburgo">Cordisburgo</option>
+            <option value="jequitiba">Jequitibá</option>
+            <option value="pedro_leopoldo">Pedro Leopoldo</option>
+            <option value="santa_barbara">Santa Bárbara</option>
+            <option value="barao_de_cocais">Barão de Cocais</option>
+            <option value="catas_altas">Catas Altas</option>
+            <option value="joao_monlevade">João Monlevade</option>
+            <option value="nova_era">Nova Era</option>
+        </optgroup>
+        </select>
+
 <button type="submit"> enviar </button>
+
+        <button type="reset"> limpar </button>
+
+<input type="button" value="teste" onclick="alert('clicou');";/>
+
 </form>
 
 </body>
